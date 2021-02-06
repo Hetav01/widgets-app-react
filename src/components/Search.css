@@ -1,0 +1,30 @@
+.dataDiv {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.ui.form .field>label {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.ui.form input:not([type]),
+.ui.form input[type=date],
+.ui.form input[type=datetime-local],
+.ui.form input[type=email],
+.ui.form input[type=file],
+.ui.form input[type=number],
+.ui.form input[type=password],
+.ui.form input[type=search],
+.ui.form input[type=tel],
+.ui.form input[type=text],
+.ui.form input[type=time],
+.ui.form input {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20  px;
+}
